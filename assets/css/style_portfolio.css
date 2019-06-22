@@ -1,0 +1,151 @@
+body {
+
+    line-height: 2em;
+    background-image: url(../images/connectwork.png);
+ 
+ }
+ #list:hover {
+ 
+    color: white
+ }
+ .header {
+ 
+ background-color: white;
+ font-size: 20px;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ margin-bottom: 3%;
+ margin-right: -5%;
+ margin-left: -5%;
+ margin-top: -1%;
+ border-bottom: .5px #777 solid
+ 
+ }
+ 
+ #name {
+ 
+    background-color: #4aaaa5;
+    width: 150px;
+    color: #fff;
+    margin-left: 25.3%;
+    margin-top: -1%;
+    margin-bottom: 1.4%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+ 
+  }
+  
+ #list {
+ 
+ background-color: white;
+ text-align: right;
+ margin-left: 61%;
+ margin-right: 26%;
+ margin-top: -5%;
+ color: #777;
+ 
+ }
+ 
+ .section {
+ 
+    border: 10px;
+    height: 400px;
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 20%;
+    border: 0.5px #777 solid;
+    
+ }
+
+ .boxA {
+
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/9.11.1/img/champion/Bard.png");
+    height: 375px;
+    width: 375px;
+ }
+
+ .boxB {
+
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/9.11.1/img/champion/Kaisa.png");
+    height: 375px;
+    width: 375px;
+ }
+
+ .boxC {
+
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/9.11.1/img/champion/Pyke.png");
+    height: 375px;
+    width: 375px;
+ }
+
+ .boxD {
+
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/9.11.1/img/champion/Yorick.png");
+    height: 375px;
+    width: 375px;
+ }
+
+ .boxE {
+
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/9.11.1/img/champion/Maokai.png");
+    height: 375px;
+    width: 375px;
+ }
+ 
+ #text {
+
+    background-color: #4aaaa5;
+    color: #fff;
+
+ }
+
+
+ #title {
+ 
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    color: #4aaaa5
+    
+ }
+
+ .footer {
+ 
+    background-color: #777;
+    text-align: center;
+    margin-top: 14%;
+    margin-left: -1%;
+    margin-right: -5%;
+    margin-bottom: -5%;
+    padding-top: 1%;
+    border-top: 5px #4aaaa5 solid;
+    
+ }
+ 
+ #copyright {
+ 
+    background-color: #777;
+    color: white;
+ 
+ }
+
+ 
+@media screen and (max-width: 980px) {
+   body {
+
+   }
+}
+
+@media screen and (max-width: 768px) {
+   body {
+
+   }
+}
+
+@media screen and (max-width: 640px) {
+   body {
+
+   }
+}      
