@@ -1,60 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-    <title>My Profile</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style_index.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap Portfolio Index</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../Bootstrap-Portfolio/assets/css/style.css" media="screen">
+
 </head>
 
 <body>
-    <div class="header">
-        <div id="name">
-            <h1>Marcelo Sanchez</h1>
-        </div>
-        <div id="list">
-            <a href="contact.html">
-                <h3> Contact</h3>
-            </a>
-        </div>
-    </div>
-
-    </hr>
-
-    </div>
-
-    <div class="section">
-        <div id="title">
-            <h1>About Me</h1>
-        </div>
-
-        <hr>
-
-        <div class="article">
-            <div id="image">
-                <img src="../Basic-Portfolio/assets/images/20181109_180560.jpg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo">Marcelo Sanchez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About</a>
+                    </li>
+                </ul>
             </div>
-            <p>
-                My name is Marcelo Sanchez, I know I already gave an intro of myself. So this can be a continuacion of
-                the story of my life. To make this short and frank, I worked many hours in many companies for lots of
-                hours, days, weeks, months, years(I'm sure you get the jist). Suddenly I came to the realization, after
-                speaking with some close successful programmer friends, that I needed to work somewhere that i could be
-                appreciated after putting in the time and knowledge.
-            </p>
-            <p>
-                All of this is not only for money or the attraction to the craft, but I have 2 little eyes watching my
-                every move. I know the desicions I make, now, govern the future of (not only me) my family. Bottom line
-                is that finally me and my family have everything to look forward to because of this step that I'am
-                unregrettably taking.
-            </p>
         </div>
-    </div>
-    <div class="footer">
-        <footer>
-            <div id="copyright">
-                <h6>Copyright ☺</h6>
+    </nav>
+
+    <main class="container">
+        <section class="row">
+            <div class="col-md-8">
+                <article class="block">
+                    <h1 class="block-header">About Me</h1>
+                    <hr />
+                    <img src="../Bootstrap-Portfolio/assets/images/20181109_180560.jpg" id="about-image" />
+                    <p>My name is Marcelo Sanchez, I know I already gave an intro of myself. So this can be a
+                        continuacion of the story of my life. To make this short and frank, I worked many hours in many
+                        companies for lots of hours, days, weeks, months, years(Im sure you get the jist). Suddenly I
+                        came to the realization, after speaking with some close successful programmer friends, that I
+                        needed to work somewhere that i could be appreciated after putting in the time and knowledge.
+                        </p>
+                        <br />
+                        <p>All of this is not only for money or the attraction to the craft, but I have 2 little eyes
+                            watching my every move. I know the desicions I make, now, govern the future of (not only me)
+                            my family. Bottom line is that finally me and my family have everything to look forward to
+                            because of this step that I'am unregrettably taking.
+                        </p>
+                </article>
             </div>
-        </footer>
-    </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright
+        </p>
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

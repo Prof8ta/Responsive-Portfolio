@@ -1,68 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-    <title>My Profile</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style_portfolio.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap Portfolio Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../Bootstrap-Portfolio/assets/css/style.css" media="screen">
+
 </head>
 
 <body>
-    <div class="header">
-        <div id="name">
-            <h1>Marcelo Sanchez</h1>
-        </div>
-        <div id="list">
-            <a href="index.html">
-                <h3>About</h3>
-            </a>
-        </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
 
-    </hr>
+            <a class="navbar-brand" href="index.html" id="logo">Marcelo Sanchez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-
-    <div class="section">
-        <div id="title">
-            <h1>Portfolio</h1>
-
-
-            <hr>
-
-            <div class="boxA">
-                <div id="text">
-                    <h2>Lisa Vinson</h2>
-                </div>
-            </div>
-            <div class="boxB">
-                <div id="text">
-                    <h2>Jessica Prado</h2>
-                </div>
-            </div>
-            <div class="boxC">
-                <div id="text">
-                    <h2>Alakh Sheth</h2>
-                </div>
-            </div>
-            <div class="boxD">
-                <div id="text">
-                    <h2>Ryan Tucker</h2>
-                </div>
-            </div>
-            <div class="boxE">
-                <div id="text">
-                    <h2>Richard Scates</h2>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <footer>
-            <div id="copyright">
-                <h6>Copyright ☺</h6>
-            </div>
+    </nav>
 
-        </footer>
+    <div class="container">
+        <main class="row">
+            <div class="col-md-8">
+                <article class="block">
+                    <h1 class="block-header">Portfolio</h1>
+                    <hr />
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid port-image" src="assets/images/Vayne.png">
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid port-image" src="assets/images/Kaisa.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid port-image" src="assets/images/Bard.png">
+                        </div>
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid port-image" src="assets/images/Pyke.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12 col-lg-6">
+                            <img class="img-fluid port-image" src="assets/images/Galio.png">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
     </div>
+
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+            &copy; Copyright
+        </p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </script>
+
 </body>
 
 </html>
